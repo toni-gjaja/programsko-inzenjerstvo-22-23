@@ -147,6 +147,14 @@ namespace PI_Zadaca
                 Console.WriteLine("Gas level: " + truck.GetGasLevel() + "," + "Battery level: " + truck.GetBatteryLevel());
             }
 
+            Console.WriteLine("-------------------------------------------------------------------------------------");
+
+            Console.WriteLine("Testing");
+
+            Console.WriteLine("");
+
+            UnitTest unitTest = new UnitTest();
+            unitTest.StartTest();
 
 
         }
