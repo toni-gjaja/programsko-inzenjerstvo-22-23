@@ -35,5 +35,10 @@ namespace PI_Zadaca.MODEL
         {
             return PRICE;
         }
+
+        public Car ShallowCopy()
+        {
+            return (Car)MemberwiseClone();
+        }
     }
 }

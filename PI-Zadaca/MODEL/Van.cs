@@ -36,5 +36,10 @@ namespace PI_Zadaca.MODEL
         {
             return PRICE;
         }
+
+        public Van ShallowCopy()
+        {
+            return (Van)MemberwiseClone();
+        }
     }
 }

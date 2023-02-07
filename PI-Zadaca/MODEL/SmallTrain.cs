@@ -29,6 +29,10 @@ namespace PI_Zadaca.MODEL
             Vans.Add(van);
         }
 
+        public SmallTrain ShallowCopy()
+        {
+            return (SmallTrain)MemberwiseClone();
+        }
 
     }
 }
