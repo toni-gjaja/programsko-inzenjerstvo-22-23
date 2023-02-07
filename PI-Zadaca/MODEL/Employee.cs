@@ -14,6 +14,11 @@ namespace PI_Zadaca.MODEL
 
         public const double CUT = 0.1;
 
+        public double GetEmployeeCut()
+        {
+            return CUT;
+        }
+
         public void ParkCars(SmallTrain smallTrain, List<Car> cars)
         {
             foreach (Car car in cars)
