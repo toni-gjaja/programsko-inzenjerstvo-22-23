@@ -35,5 +35,10 @@ namespace PI_Zadaca.MODEL
         {
             return PRICE;
         }
+
+        public Bus ShallowCopy()
+        {
+            return (Bus)MemberwiseClone();
+        }
     }
 }

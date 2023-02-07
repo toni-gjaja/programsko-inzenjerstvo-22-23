@@ -107,5 +107,10 @@ namespace PI_Zadaca.MODEL
             return truck;
         }
 
+        public Employee ShallowCopy()
+        {
+            return (Employee)MemberwiseClone();
+        }
+
     }
 }

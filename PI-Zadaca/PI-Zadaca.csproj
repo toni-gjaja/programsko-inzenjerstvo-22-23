@@ -54,6 +54,7 @@
     <Compile Include="MODEL\Truck.cs" />
     <Compile Include="MODEL\Van.cs" />
     <Compile Include="MODEL\Vehicle.cs" />
+    <Compile Include="OpenTerminal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

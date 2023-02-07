@@ -27,5 +27,10 @@ namespace PI_Zadaca.MODEL
         {
             Trucks.Add(truck);
         }
+
+        public LargeTrain ShallowCopy()
+        {
+            return (LargeTrain)MemberwiseClone();
+        }
     }
 }
